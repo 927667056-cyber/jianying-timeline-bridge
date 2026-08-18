@@ -1,0 +1,327 @@
+{
+  "schema": "io.github.jianying-timeline-bridge.package-manifest",
+  "schema_version": 1,
+  "bridge_version": "0.1.1-alpha.1",
+  "release_tier": "narrow-verified-alpha",
+  "supported_jianying_build": "11.2.0.14339",
+  "supported_videoeditor_dll_sha256": "654371a6dca840f53ae786df43fc345365e54d2189d5572ce7c4658aab23f540",
+  "public_smoke_tests": "13/13",
+  "validation_summary": {
+    "independent_long_form_timelines": 2,
+    "paired_av_segments": "hundreds",
+    "captions": "hundreds",
+    "timeline_frames": "more_than_30000",
+    "duration_policies": [
+      "exact",
+      "one_unused_trailing_frame"
+    ]
+  },
+  "file_count": 61,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 88,
+      "sha256": "c6f15666c5272f59b737259a9c71d40ba9ae174cdab08cd00f75c170aded3909"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 665,
+      "sha256": "b78bb813f9dbb29f995080bb4cbe5ee6ac33fd61fd3fa764ad09c9a8b4de77ba"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 450,
+      "sha256": "1a98ddd7c5a0f262ac7fb6e61248692f88787d340284da476f41ad49db03fa84"
+    },
+    {
+      "path": "00_环境自检.bat",
+      "size_bytes": 832,
+      "sha256": "c1bc13411fc9a7eb4887ad6c383655af95999f4b55348a6440da9cff88ca9fdf"
+    },
+    {
+      "path": "00_首次配置.bat",
+      "size_bytes": 612,
+      "sha256": "a6023e01a9690341714abda0ea8fdf83980911e933a53af20ae4607b584a5e6f"
+    },
+    {
+      "path": "bridge_cli.py",
+      "size_bytes": 32024,
+      "sha256": "775eb256ea80dd205f83bbc80c8911158976e38f2b855d78a673a13349efd97b"
+    },
+    {
+      "path": "bridge_gui.py",
+      "size_bytes": 11146,
+      "sha256": "d746235c339a7710fa03d94c4a26264946d033fc101ad1ebe098d0b0968acebc"
+    },
+    {
+      "path": "bridge_safety.py",
+      "size_bytes": 6838,
+      "sha256": "e85e39ac0a8f4c3b42f3f3c8e049b5a70b8e2152882a2eed1177e685bbbf9151"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size_bytes": 1031,
+      "sha256": "63ce747dbe146513ca39355b80c99cc5343026f5ca75d4477c3d3d9fad29af93"
+    },
+    {
+      "path": "COMPATIBILITY.md",
+      "size_bytes": 1574,
+      "sha256": "ab882b0d292cb384d8f87eecaa16ddf34d958a53d0fb325e440e451899de07d0"
+    },
+    {
+      "path": "configure_bridge.py",
+      "size_bytes": 2865,
+      "sha256": "b32ab879aa32043edc895a4db880abfaa823440091ef2a58bfa6692c28937cc3"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "size_bytes": 755,
+      "sha256": "78421d5a93e37f574fb8e5fae6683fdba0851ffd37648dcbc288cbbd58c18608"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "size_bytes": 1980,
+      "sha256": "e06bf6126e369f12842d591cfdc9b3be4c83e3bf68793e07ee0a1bd0e3dfe790"
+    },
+    {
+      "path": "integrations/codex/jianying-timeline-bridge/agents/openai.yaml",
+      "size_bytes": 282,
+      "sha256": "5012f084598cfde4b85ffb9ddf3607f75fbd2a4be9964e363edd0f7cd4b0ecfa"
+    },
+    {
+      "path": "integrations/codex/jianying-timeline-bridge/references/supported-profile.md",
+      "size_bytes": 1488,
+      "sha256": "95a0d5a46f89dd6b4c8484a6081d2b92c70227b7c606ebec10bce9f5a4cb2646"
+    },
+    {
+      "path": "integrations/codex/jianying-timeline-bridge/scripts/run_bridge.py",
+      "size_bytes": 1594,
+      "sha256": "7d203e61026828f25e42420ffda997a1959bdca08f4e9bbd353328f1ee1009c8"
+    },
+    {
+      "path": "integrations/codex/jianying-timeline-bridge/SKILL.md",
+      "size_bytes": 4317,
+      "sha256": "326645939aeadfeff25cee53415088b18615f100edeb184de8645f96014310d2"
+    },
+    {
+      "path": "jianying_to_fcp7.py",
+      "size_bytes": 69529,
+      "sha256": "ee45b961215a1a903bf9cb85af75af6b8f96aa89d2eeb82e42b0cb80da16bdb8"
+    },
+    {
+      "path": "jianying_xml_adapter.py",
+      "size_bytes": 92822,
+      "sha256": "2c876f36dac44d2b6f7dbc65a2d9582292cdc95ec406d0cdb1a5ea05e16fbffb"
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 11540,
+      "sha256": "54faf58da8dcabb2937c1892ee17c5ca8633a8f33785cbf14fed884b6dd2cbac"
+    },
+    {
+      "path": "PRIVACY.md",
+      "size_bytes": 1321,
+      "sha256": "0a49437241f944435901d7af57a439c155c6c81a169d91767546b832b8f06e4e"
+    },
+    {
+      "path": "pyJianYingDraft-fork/LICENSE",
+      "size_bytes": 11540,
+      "sha256": "54faf58da8dcabb2937c1892ee17c5ca8633a8f33785cbf14fed884b6dd2cbac"
+    },
+    {
+      "path": "pyJianYingDraft-fork/pyJianYingDraft/__init__.py",
+      "size_bytes": 269,
+      "sha256": "8fc5cee734991f843c1af79b155443f901988ee3d97fc9dd1aa1a70d9d0a0146"
+    },
+    {
+      "path": "pyJianYingDraft-fork/pyJianYingDraft/draft_codec.py",
+      "size_bytes": 7568,
+      "sha256": "2dbbd0f7ffd7c3c4481f8b92cb9413fb0ab97f335ad34c95718897f8d7809c2d"
+    },
+    {
+      "path": "pyJianYingDraft-fork/pyJianYingDraft/draft_crypto.py",
+      "size_bytes": 18750,
+      "sha256": "f46970d2c7168f10ed41b2ace51ede7997d990744804eb3ae525abe91cb9fdb5"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 5024,
+      "sha256": "1418d4c95190b5c73638b003c68924d9c7f77791999235f86a0ecee35367b5fa"
+    },
+    {
+      "path": "README_EN.md",
+      "size_bytes": 3776,
+      "sha256": "f495fe0f2eba6f23afb6808aa061a5ad46ad9a6cf94626d65baf2eab89041350"
+    },
+    {
+      "path": "scripts/generate_manifest.py",
+      "size_bytes": 1969,
+      "sha256": "8588e8f0070f915e4701877ada32d5c89b6f5f9253ca31f566de0b76b51a7428"
+    },
+    {
+      "path": "scripts/privacy_audit.py",
+      "size_bytes": 5039,
+      "sha256": "524cfa289e2c46bd68cc7aa90992cba32f7df9cb05c77fc468d951359fbf0a39"
+    },
+    {
+      "path": "SECURITY.md",
+      "size_bytes": 979,
+      "sha256": "4a37a148b8a81fa274e3c1df5502df147abffcea5c7d597e0db6b7d5e171dfb3"
+    },
+    {
+      "path": "software_build/bridge_config.example.json",
+      "size_bytes": 983,
+      "sha256": "419b7965300a22170b2d67bea05a8e3278e0adef545f38c395d48273e03184b8"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/attachment_editing.json",
+      "size_bytes": 2746,
+      "sha256": "2284731068b69812c92ff980857ef80e00081797cbf557fb2d6ed85aee83ac94"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/attachment_pc_common.json",
+      "size_bytes": 772,
+      "sha256": "8c7dffa684cb925998aefae41effe907f8df26d4cb218ac3f0d46b2c25ed4e01"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/common_attachment/attachment_action_scene.json",
+      "size_bytes": 80,
+      "sha256": "312a617277f0d0870b0bcf183e42840f88385f9c465af017c5cd64e2ad2c7e6f"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/common_attachment/attachment_id_mapping.json",
+      "size_bytes": 46496,
+      "sha256": "3db3f2bbd5813826eb3e1663c5664d01aeb0617dada40bb6a52400c4e448838a"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/common_attachment/attachment_pc_timeline.json",
+      "size_bytes": 161,
+      "sha256": "353ad0f59c110714046a4b3652ed66ff6cc27012f96a99f6229ea39be3fbeab9"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/common_attachment/attachment_plugin_draft.json",
+      "size_bytes": 78,
+      "sha256": "f4a4536bcb789c7f5347faa3797f32895507d5e788b711c6bdd576dace57e971"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/common_attachment/attachment_script_video.json",
+      "size_bytes": 262,
+      "sha256": "d3a3690ca7674e144e66051275f996b7ae6c9c371666f7051a200dc8b6959bcb"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_agency_config.json",
+      "size_bytes": 180,
+      "sha256": "d743638dee1f0da397f1d6ddfceced4af7be9d5ca926b96e524ebe190afbfeec"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_biz_config.json",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_content.json",
+      "size_bytes": 5300,
+      "sha256": "e034a7bfeadfd3afed927ac5914df5c91b053a9ea139adde4ea2104cf7257f5a"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_cover.jpg",
+      "size_bytes": 581,
+      "sha256": "6afa48349a60d7c1fef25d26a61f22ab8a348dd16a2f6f67763c09ca51be9ecd"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_meta_info.json",
+      "size_bytes": 3752,
+      "sha256": "4a4dea909501c08cc9c79fee9e8c242fbab38088911332ddfea95a5d7ac7b558"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_settings",
+      "size_bytes": 143,
+      "sha256": "0e7991efbe635577991fd52d49118a9da078ccc6e2406fb89381773b78d54486"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/draft_virtual_store.json",
+      "size_bytes": 640,
+      "sha256": "4d04f0797288d216e90c0e468fbd42912cb9158950af10c50ceb20936e2243e9"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/key_value.json",
+      "size_bytes": 1865,
+      "sha256": "753f636a75fcbce4340427f9bd16afff34b420570018f036843217b18893a18a"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/performance_opt_info.json",
+      "size_bytes": 81,
+      "sha256": "8ce54f8539ee921cce82359de72aac1e8258ba6fd24662fdd9fc3a3ab41455f3"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/timeline_layout.json",
+      "size_bytes": 297,
+      "sha256": "33d5de27a5bd2cd07adcc5ef9392ac3e6ee1118cb36ea55ef0f2c2a1b3d60566"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/attachment_editing.json",
+      "size_bytes": 2746,
+      "sha256": "2284731068b69812c92ff980857ef80e00081797cbf557fb2d6ed85aee83ac94"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/attachment_pc_common.json",
+      "size_bytes": 772,
+      "sha256": "8c7dffa684cb925998aefae41effe907f8df26d4cb218ac3f0d46b2c25ed4e01"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/common_attachment/attachment_action_scene.json",
+      "size_bytes": 80,
+      "sha256": "312a617277f0d0870b0bcf183e42840f88385f9c465af017c5cd64e2ad2c7e6f"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/common_attachment/attachment_id_mapping.json",
+      "size_bytes": 46496,
+      "sha256": "3db3f2bbd5813826eb3e1663c5664d01aeb0617dada40bb6a52400c4e448838a"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/common_attachment/attachment_pc_timeline.json",
+      "size_bytes": 161,
+      "sha256": "353ad0f59c110714046a4b3652ed66ff6cc27012f96a99f6229ea39be3fbeab9"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/common_attachment/attachment_plugin_draft.json",
+      "size_bytes": 78,
+      "sha256": "f4a4536bcb789c7f5347faa3797f32895507d5e788b711c6bdd576dace57e971"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/common_attachment/attachment_script_video.json",
+      "size_bytes": 262,
+      "sha256": "d3a3690ca7674e144e66051275f996b7ae6c9c371666f7051a200dc8b6959bcb"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/draft_content.json",
+      "size_bytes": 5300,
+      "sha256": "0a85288dc394d15d9fb408055d511bba4c0b410e8649d6bb7f02d2631b41dc99"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/61EB4069-B64C-42B9-A36D-F5F2B158B1E0/draft_cover.jpg",
+      "size_bytes": 581,
+      "sha256": "6afa48349a60d7c1fef25d26a61f22ab8a348dd16a2f6f67763c09ca51be9ecd"
+    },
+    {
+      "path": "template_build/prepared/JYBridge_Template_11_2_Profile_001/Timelines/project.json",
+      "size_bytes": 571,
+      "sha256": "61bc2a3840ad4e8fdc79528514ebcbebd786cf5f2fd9875e6425a746e34b55cb"
+    },
+    {
+      "path": "tests/test_public_smoke.py",
+      "size_bytes": 5028,
+      "sha256": "6ff8b0ee038a070309148d6881d97ab9f670560afd9d51c92e276e7fa967bc20"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "size_bytes": 571,
+      "sha256": "b25e59f7bd622f43d07df9553013888e0e11f0c5bb1fd852fcf697c2a060d1ed"
+    },
+    {
+      "path": "启动_剪映时间线双向桥.bat",
+      "size_bytes": 760,
+      "sha256": "5e7d22b2f89070ebc95771b664073e5bcf400e791bb499c68d6dc23b3ba21cab"
+    }
+  ]
+}

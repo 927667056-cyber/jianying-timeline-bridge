@@ -1,0 +1,27 @@
+{
+  "schema": "io.github.jianying-timeline-bridge.runtime-config",
+  "schema_version": 1,
+  "compatibility": {
+    "jianying_build": "11.2.0.14339",
+    "jianying_install_dir": "%JYBRIDGE_JIANYING_HOME%",
+    "videoeditor_dll_sha256": "654371a6dca840f53ae786df43fc345365e54d2189d5572ce7c4658aab23f540",
+    "draft_version": 360000,
+    "new_version": "181.0.0",
+    "fps": 30
+  },
+  "tools": {
+    "ffmpeg": "%JYBRIDGE_FFMPEG%",
+    "ffprobe": "%JYBRIDGE_FFPROBE%"
+  },
+  "draft_store": {
+    "root": "%JYBRIDGE_DRAFT_ROOT%",
+    "root_meta_info": "%LOCALAPPDATA%\\JianyingPro\\User Data\\Projects\\com.lveditor.draft\\root_meta_info.json"
+  },
+  "clean_template": {
+    "profile_id": "jy-win64-11.2.0.14339-draft181-clean-v1",
+    "path": "..\\template_build\\prepared\\JYBridge_Template_11_2_Profile_001",
+    "fingerprint_algorithm": "sha256-tree-path-size-filehash-v1",
+    "sha256": "cb8a8b20411e9d5bcf451829b77e5a8e4deb83fcc06ea163567ecdab1ad4f924",
+    "file_count": 27
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "config": {
+    "color_space": -1,
+    "mixed_track_mode_on": false,
+    "render_index_track_mode_on": false,
+    "use_float_render": false
+  },
+  "create_time": 1786912652593090,
+  "id": "99CAC3CD-156E-4089-8A3D-ED71C1443390",
+  "main_timeline_id": "61EB4069-B64C-42B9-A36D-F5F2B158B1E0",
+  "timelines": [
+    {
+      "create_time": 1786912652593090,
+      "id": "61EB4069-B64C-42B9-A36D-F5F2B158B1E0",
+      "is_marked_delete": false,
+      "name": "时间线01",
+      "update_time": 1786912652593090
+    }
+  ],
+  "update_time": 1786912652593090,
+  "version": 0
+}

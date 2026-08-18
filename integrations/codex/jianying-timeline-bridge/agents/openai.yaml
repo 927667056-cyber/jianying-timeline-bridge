@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪映时间线双向桥"
+  short_description: "安全双向转换 FCP7 时间线、SRT 与剪映草稿工程"
+  default_prompt: "Use $jianying-timeline-bridge to run the supported bidirectional Jianying timeline workflow with fail-closed safety gates."

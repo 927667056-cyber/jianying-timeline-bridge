@@ -1,0 +1,2 @@
+# Release manifests and the encrypted template require byte-for-byte stability.
+* -text

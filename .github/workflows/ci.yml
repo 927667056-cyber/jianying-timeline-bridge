@@ -1,0 +1,23 @@
+name: public-safety
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  public-tests:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compile public modules
+        run: python -m compileall -q bridge_cli.py bridge_gui.py bridge_safety.py jianying_to_fcp7.py jianying_xml_adapter.py integrations/codex/jianying-timeline-bridge/scripts/run_bridge.py
+      - name: Run public tests
+        run: python -m unittest -v tests.test_public_smoke
+      - name: Scan public tree
+        run: python scripts/privacy_audit.py --root .
